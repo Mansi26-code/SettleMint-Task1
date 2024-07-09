@@ -1,0 +1,57 @@
+.boxes {
+    height: 270px;
+    margin-top: 50px;
+    width: 700px;
+    margin: auto;
+ 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box1, .box2 {
+    height: 100px;
+    width: 240px;
+    border: 1px solid rgb(173, 166, 166);
+    margin-top: 30px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px black;
+    display: flex;
+    align-items: center;  /* Center vertically */
+    padding: 10px;  /* Add padding */
+}
+
+.box1 {
+    margin-left: 30px;
+}
+
+.box2 {
+    margin-left: 20px;
+}
+
+.box3 {
+    height: 46px;
+    width: 89px;
+    border: 1px solid rgb(228, 162, 41);
+    border-radius: 4px;
+    background-color: rgb(228, 162, 41);
+    color: black;
+    margin-top: -40px;
+    margin-left: 255px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.box3 p {
+    margin-top: 10px;
+    line-height: 2px;
+}
+
+.icon {
+    margin-right: 10px;  /* Adjust the space between the icon and text */
+}
+
+span {
+    line-height: 2.5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}

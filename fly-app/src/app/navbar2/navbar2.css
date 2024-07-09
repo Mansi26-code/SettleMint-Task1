@@ -1,0 +1,65 @@
+/* src/app/navbar2/navbar2.css */
+
+.navbar2 {
+    display: flex;
+    justify-content: space-around; /* Distributes space around the items */
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: #f8f9fa; /* Example background color */
+    padding: 10px;
+}
+
+.filterItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-right: 10px; /* Adds space between each filter item */
+}
+
+.inputWithIcon {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.inputWithIcon .react-datepicker-wrapper {
+    display: flex;
+    align-items: center;
+    width: auto; /* Allows the input to adjust its width */
+}
+
+.inputWithIcon input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 200;
+    width: 100px; /* Adjust width to fit everything in a single row */
+}
+
+.calendarIcon {
+    position: absolute;
+    right: 10px;
+    pointer-events: none;
+    background-image: url('/calendar-icon.png'); /* Use your calendar icon image */
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+
+button.clearButton {
+    color: white;
+    background-color: green;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button.clearButton:hover {
+    background-color: darkgreen;
+}
+

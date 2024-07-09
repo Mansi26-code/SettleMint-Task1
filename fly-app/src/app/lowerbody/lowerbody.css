@@ -1,0 +1,91 @@
+.box4 {
+    height: 300px;
+    width: 100vw;
+    margin: auto;
+   
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: flex-start; /* Align boxes to the start */
+    margin-top: -70px;
+}
+
+.b1, .b2, .b3, .b4, .b5 {
+    height: 150px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.b2, .b3, .b4, .b5 {
+    margin-left: -20px; /* Small margin between boxes */
+}
+
+.b5 {
+    margin-left: 40px;
+    background-color: rgba(221, 158, 9, 0.831); /* Large margin before the last box */
+    color: black;
+}
+
+.b2 {
+    display: flex;
+    flex-direction: column; /* Ensures .subdiv2 is placed within .b2 correctly */
+    align-items: center;
+    justify-content: flex-start; /* Align items at the start */
+}
+
+.subdiv2, .subdiv3, .subdiv4,.subdiv5 {
+    height: 30px;
+    width: 180px;
+    background-color: pink;
+    margin-top: 0px; /* Adds spacing from the top of .b2 */
+    color: white;
+    text-align: center;
+    
+}
+.subdiv3{
+    height: 30px;
+    width: 180px;
+    background-color: purple;
+    margin-top: 0px; /* Adds spacing from the top of .b2 */
+}
+
+.subdiv4{
+    height: 30px;
+    width: 180px;
+    background-color:cadetblue;
+    margin-top: 0px; /* Adds spacing from the top of .b2 */
+}
+.subdiv5{
+    height: 30px;
+    width: 180px;
+    background-color:cadetblue;
+    margin-top: 0px; /* Adds spacing from the top of .b2 */
+}
+
+
+.truck {
+    margin-left: 35px;
+}
+
+.arrow-icon {
+    margin-left: -5px;
+    margin-right: 25px;
+}
+.location{
+    line-height: 2px;
+    text-align: center;
+    margin-left: 1px;
+}
+.time{
+    line-height: 2px;
+    text-align: center;
+    margin-top: 10px;
+}
+.b1{
+    background-color: cadetblue;
+    color: white;
+  
+}
+.b1 .location{
+    margin-top: 30px;
+}

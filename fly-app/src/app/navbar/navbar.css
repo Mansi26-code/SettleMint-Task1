@@ -1,0 +1,81 @@
+/* src/app/navbar/navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: flex-start; /* Align items to the start */
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(186, 151, 107);
+    padding: 0 10px; /* Adds padding to the left and right */
+}
+
+.text {
+    font-size: 21px;
+    font-weight: 800;
+    margin-right: 10px; /* Adds space between the text and the inputs */
+}
+
+.navbarmid {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Adds space between elements */
+}
+
+.navbarmid input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Ensures consistent border radius */
+    font-size: 16px;
+    font-weight: 200;
+}
+
+button {
+    color: white;
+    background-color: green;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 10px; /* Adds space between inputs and button */
+}
+
+.navbarRight {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds space between the icons */
+    margin-left: auto; /* Pushes navbarRight to the far right */
+}
+
+.pdf, .exel {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-size: cover; /* Ensures the image covers the element */
+    background-position: center;
+}
+
+.pdf {
+    background-image: url("/pdf.jpeg");
+}
+
+.exel {
+    background-image: url("/exel.jpeg");
+}
+
+.line{
+    height: 50px;
+    width: 2px;
+    background-color: white;
+}
+
+.filter{
+    height: 37px;
+    width: 100px;
+    padding: 2px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: aliceblue;
+}

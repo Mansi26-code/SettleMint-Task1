@@ -1,0 +1,45 @@
+.headerBar{
+ margin-top: -10px;
+ background-color: rgb(4, 4, 160);
+    height: 60px;
+    width: 102%;
+    margin-left: -8px;
+    border: 2px solid black;
+    display: flex;
+    
+    align-items: center;
+
+}
+
+/* src/app/header/header.css */
+
+.leftHeader {
+    border: 2px solid pink;
+    height: 50px;
+    width: 50px;
+   background-color: white;
+    border-radius: 50%;
+    background-image: url('/logo.webp'); /* Adjust path as needed */
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+}
+.leftHeaderTitle{
+   font-size: 23px;
+    color: white;
+    margin-left: 4px;
+
+}
+
+.rightHeader{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-image:url('/power.jpeg');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid red;
+    margin-left: 1080px;
+
+}
+
